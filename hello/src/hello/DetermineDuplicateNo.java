@@ -35,12 +35,12 @@ public class DetermineDuplicateNo {
 			System.out.println("ArrayList Elements: " + list);
 
 			Object[] object_array = list.toArray();
-			int objectarray_length = object_array.length;
+			int objectarraylength = object_array.length;
 
-			int[] array = new int[objectarray_length];
+			int[] array = new int[objectarraylength];
 
 			System.out.println("Array Element :");
-			for (int i = 0; i < objectarray_length; i++) {
+			for (int i = 0; i < objectarraylength; i++) {
 
 				array[i] = (int) object_array[i];
 				System.out.print(array[i] + " ");
